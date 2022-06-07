@@ -1,0 +1,60 @@
+
+.card {
+    width: 25rem;
+    margin: auto;
+    margin-top: 10rem;
+    text-align: center;
+    background: rgb(46, 46, 58);
+    color: rgb(163,172,190);
+
+    border-radius: 20px;
+
+    box-shadow: 1px 3px 36px 0 rgb(0 0 0 / 20%), 0 22px 24px 0 rgb(0 0 0 / 19%);
+}
+
+.cardNav {
+    padding: 2rem;
+    background-color: rgb(238, 174, 100);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+
+
+}
+
+.radioList {
+    text-align: center;
+    padding: 1.3rem;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.257);
+
+    transition: all .2s;
+}
+
+.listItem:hover {
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.currentchannel {
+    height: 5rem;
+
+}
+
+.currentlyPlaying {
+    color: rgb(238, 174, 100);
+    font-size: medium
+}
+
+.currentChannelPlaying {
+    padding: 1rem;
+}
